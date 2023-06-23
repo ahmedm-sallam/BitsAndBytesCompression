@@ -1,6 +1,13 @@
 # BitsAndBytesCompression
 This repository contains Java implementations of various compression algorithms, including LZ77, LZ78, Huffman coding, arithmetic coding, and Vector Quantization. These algorithms provide efficient ways to compress and decompress data, reducing file sizes and improving storage and transmission efficiency.
 
+## Table of Contents
+- [LZ77 Algorithms](https://github.com/ahmedm-sallam/BitsAndBytesCompression/blob/main/README.md#lz77-algorithms).
+- [LZ78 Algorithms](https://github.com/ahmedm-sallam/BitsAndBytesCompression/blob/main/README.md#lz78-algorithms).
+- [Huffman Compression and Decompression Algorithm](https://github.com/ahmedm-sallam/BitsAndBytesCompression/blob/main/README.md#huffman-compression-and-decompression-algorithm).
+- [Binary Arithmetic Algorithm](https://github.com/ahmedm-sallam/BitsAndBytesCompression/blob/main/README.md#binary-arithmetic-algorithm).
+- [VectorQuantization](https://github.com/ahmedm-sallam/BitsAndBytesCompression/blob/main/README.md#vectorquantization).
+  
 # LZ77 Algorithms
 
 ## Introduction
@@ -122,7 +129,7 @@ The binary arithmetic compression and decompression algorithm implemented in thi
    - Repeat until all bits have been processed or the end flag is reached.
 6. Return the decompressed text.
    
-# vectorQuantization
+# VectorQuantization
 
 ## Introduction
 The Vector Quantization algorithm is a technique used for image compression, where an image is divided into smaller sub-images called vectors. These vectors are then compared to a codebook, which contains representative vectors. The algorithm finds the best matching vector from the codebook for each sub-image vector and replaces it with the corresponding codebook vector. This process reduces the amount of data required to represent the image, resulting in compression.
